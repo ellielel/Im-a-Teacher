@@ -1,0 +1,147 @@
+body.indexpage {
+  background-color: #f2e7d1ff;
+}
+nav {
+  background-color: #d2e1e6ff;
+}
+
+
+
+a.nav-link {
+  color: black;
+  background-color: #6da8c6;
+  border: 1px #e69a3aff;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+a.nav-link:hover {
+  color: black;
+  background-color: #e69a3aff;
+  border: 1px #6da8c6;
+  border-radius: 5px;
+  margin-right: 8px;
+}
+
+h1.mainheading {
+  color: #dc4345ff;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-weight: bold;
+}
+
+.toptext{
+    background-color: #f2e7d1ff;
+}
+.spintitle {
+  padding-top: 16px;
+  padding-bottom: 016px;
+  padding-left: 32px;
+  padding-right: 32px;
+  
+}
+.spingrid {
+  padding: 32px;
+}
+
+img.d-block mx-lg-auto img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lead {
+  font-family: "Raleway";
+  color: #847456ff;
+   background-color: #f2e7d1ff;
+}
+
+button.btn {
+  color: black;
+  background-color: #6da8c6;
+  border: 1px #e69a3a;
+}
+button.btn:hover {
+  color: #dc4345ff;
+  background-color: #d2e1e6ff;
+  border: 1px #dc4345ff;
+}
+
+footer {
+  font-family: "Raleway", sans-serif;
+  color: #847456ff;
+}
+
+/* CSS HEX
+--coyote: #847456ff;
+--butterscotch: #E69A3Aff;
+--poppy: #DC4345ff;
+--parchment: #F2E7D1ff;
+--alice-blue: #D2E1E6ff;
+--blue: #6DA8C6
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+*/
+
+/*CSS for transferable skills spinner*/
+
+#wheel {
+  position: absolute;
+  transform-origin: center;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  transition: transform 1s;
+  user-select: none;
+  cursor: grab;
+}
+
+/* I'd like to be able to click to rotate 72 degrees and stay, 
+then click again to rotate another 72 deg, etc to reveal each section in turn*/
+
+#wheel:hover:active {
+  transform: rotate(72deg);
+}
+
+.skills {
+  position: absolute;
+}
+/*Ignore poor quality png - can do a decent graphic later*/
+
+/*FlipCard guide thanks to W3Schools :-)*/
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  font-family: Montserrat;
+  font-size: 18px;
+  background-color: #f2e7d1ff;
+  transform: rotateY(180deg);
+  padding: 16px;
+  
+}
