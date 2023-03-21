@@ -1,5 +1,5 @@
 body.indexpage {
-  background-color: #fbf7f0;
+  background-color: #f2e7d1ff;
 }
 nav {
   background-color: #d2e1e6ff;
@@ -51,8 +51,8 @@ img.d-block mx-lg-auto img-fluid {
 
 .lead {
   font-family: "Raleway";
-  color: #5c513c;
-   background-color: #fbf7f0;
+  color: #847456ff;
+   background-color: #f2e7d1ff;
 }
 
 button.btn {
@@ -96,17 +96,17 @@ font-family: 'Raleway', sans-serif;
   cursor: grab;
 }
 
-/* I'd like to be able to click to rotate 72 degrees and stay, 
-then click again to rotate another 72 deg, etc to reveal each section in turn*/
+ /*I'd like to be able to click to rotate 72 degrees and stay, 
+then click again to rotate another 72 deg, etc to reveal each section in turn
 
 #wheel:hover:active {
   transform: rotate(72deg);
 }
-
+*/
 .skills {
   position: absolute;
 }
-/*Ignore poor quality png - can do a decent graphic later*/
+
 
 /*FlipCard guide thanks to W3Schools :-)*/
 .flip-card {
