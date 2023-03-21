@@ -1,5 +1,5 @@
 body.indexpage {
-  background-color: #f2e7d1ff;
+  background-color: #f9f5ec;
 }
 nav {
   background-color: #d2e1e6ff;
@@ -30,7 +30,7 @@ h1.mainheading {
 }
 
 .toptext{
-    background-color: #f2e7d1ff;
+    background-color: #f9f5ec;
 }
 .spintitle {
   padding-top: 16px;
@@ -51,8 +51,8 @@ img.d-block mx-lg-auto img-fluid {
 
 .lead {
   font-family: "Raleway";
-  color: #847456ff;
-   background-color: #f2e7d1ff;
+  color: #4f4533;
+   background-color: #f9f5ec;
 }
 
 button.btn {
@@ -68,21 +68,10 @@ button.btn:hover {
 
 footer {
   font-family: "Raleway", sans-serif;
-  color: #847456ff;
+  color: #4f4533;
 }
 
-/* CSS HEX
---coyote: #847456ff;
---butterscotch: #E69A3Aff;
---poppy: #DC4345ff;
---parchment: #F2E7D1ff;
---alice-blue: #D2E1E6ff;
---blue: #6DA8C6
 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Raleway', sans-serif;
-
-*/
 
 /*CSS for transferable skills spinner*/
 
@@ -138,9 +127,9 @@ then click again to rotate another 72 deg, etc to reveal each section in turn
 }
 
 .flip-card-back {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
-  background-color: #f2e7d1ff;
+  background-color: #f9f5ec;
   transform: rotateY(180deg);
   padding: 16px;
   
